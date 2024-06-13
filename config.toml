@@ -8,52 +8,38 @@
   # 网站默认主题 ["auto", "light", "dark"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = ""
   # which hash function used for SRI, when empty, no SRI is used
-  # ["sha256", "sha384", "sha512", "md5"]
-  # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
   # date format
   # 日期格式
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "My cool site"
+  title = "Survival Wilderness G"
+
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "Survival Wilderness"
   # website images for Open Graph and Twitter Cards
-  # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
 
   # Header config
-  # 页面头部导航栏配置
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
-    # 桌面端导航栏模式 ["fixed", "normal", "auto"]
     desktopMode = "fixed"
     # mobile header mode ["fixed", "normal", "auto"]
-    # 移动端导航栏模式 ["fixed", "normal", "auto"]
     mobileMode = "auto"
     # Header title config
-    # 页面头部导航栏标题配置
     [params.header.title]
       # URL of the LOGO
-      # LOGO 的 URL
       logo = ""
       # title name
-      # 标题名称
-      name = "My cool site"
+      name = "Survival Wilderness"
       # you can add extra information before the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       # whether to use typeit animation for title name
-      # 是否为标题显示打字机动画
       typeit = false
 
   # Footer config
@@ -65,18 +51,14 @@
     custom = ""
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
     # whether to show the author
     # 是否显示作者
-    author = true
-    # site creation time
-    # 网站创立年份
-    since = 2022
-    # ICP info only in China (HTML format is supported)
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    author = false
+    # since = 202
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
@@ -113,7 +95,8 @@
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "My cool site"
+    title = "Survival Wilderness"
+
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -181,7 +164,7 @@
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = "Learn & Share Skills for Survival Wilderness"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
